@@ -17,16 +17,16 @@
 ## Screenshots
 
 1. Home page
-   ![homePage](./assets/home_page.png)
+   ![homePage](./src/assets/home_page.png)
 
 2. Recipe page
-   ![recipePage](./assets/recipe_page.png)
+   ![recipePage](./src/assets/recipe_page.png)
 
 3. Favorite page
-   ![favoritePage](./assets/favorite_page.png)
+   ![favoritePage](./src/assets/favorite_page.png)
 
 4. Contact page
-   ![contactPage](./assets/contact_page.png)
+   ![contactPage](./src/assets/contact_page.png)
 
 ## Notes
 
