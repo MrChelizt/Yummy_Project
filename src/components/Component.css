@@ -1,0 +1,28 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+}
+
+.menuItem {
+  text-decoration: none;
+  color: black;
+}
+
+.title img {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
