@@ -69,7 +69,7 @@ export default function RecipeItem({ recipeItem, favorite, setFavorite }) {
           component="img"
           height="300"
           image={recipeItem.strMealThumb}
-          alt="Paella dish"
+          alt={recipeItem.strMeal}
         />
         <CardContent>
           <Typography
