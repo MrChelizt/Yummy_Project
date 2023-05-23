@@ -19,16 +19,16 @@ export default function FavoriteDetail({ recipe }) {
             alignContent: "center",
           }}
         >
-          <div className="item_content_container">
-            <div className="item_content">
+          <Box className="item_content_container">
+            <Box className="item_content">
               <p className="item_name">{recipe.strMeal}</p>
               <p>
                 <span>Category: </span>
                 {recipe.strCategory}
               </p>
-            </div>
+            </Box>
             <img src={recipe.strMealThumb} alt={recipe.strTags} />
-          </div>
+          </Box>
         </Paper>
       </Box>
     </div>

@@ -61,7 +61,7 @@ export default function RecipeItem({ recipeItem, favorite, setFavorite }) {
               }}
               aria-label="recipe"
             >
-              {recipeItem.strCategory.slice(0, 1)}
+              {recipeItem.strMeal.slice(0, 1)}
             </Avatar>
           }
           title={recipeItem.strMeal}
