@@ -11,6 +11,8 @@ import {
   IconButton,
   Typography,
   styled,
+  List,
+  ListItem,
 } from "@mui/material";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -80,17 +82,17 @@ export default function RecipeItem({ recipeItem, favorite, setFavorite }) {
             <h3>Ingredients:</h3>
           </Typography>
           <Typography variant="body2" color="text.secondary" component={"div"}>
-            <ol>
-              <li>
+            <List>
+              <ListItem>
                 {recipeItem.strIngredient1}: {recipeItem.strMeasure1}
-              </li>
-              <li>
+              </ListItem>
+              <ListItem>
                 {recipeItem.strIngredient2}: {recipeItem.strMeasure2}
-              </li>
-              <li>
+              </ListItem>
+              <ListItem>
                 {recipeItem.strIngredient3}: {recipeItem.strMeasure3}
-              </li>
-            </ol>
+              </ListItem>
+            </List>
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
