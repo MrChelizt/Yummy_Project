@@ -4,7 +4,7 @@ import { Badge } from "@mui/material";
 
 import logo from "../assets/chef.png";
 
-import "./Component.css";
+import "./NavBar.css";
 
 export default function Navbar({ favorite }) {
   return (

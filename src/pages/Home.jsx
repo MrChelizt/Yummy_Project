@@ -6,7 +6,7 @@ import pizza from "../assets/pizza.webp";
 import salad from "../assets/salad.avif";
 import shrimp from "../assets/shrimp.avif";
 
-import "./Page.css";
+import "./Home.css";
 
 export default function Home() {
   return (

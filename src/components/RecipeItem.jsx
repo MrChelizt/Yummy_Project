@@ -17,6 +17,8 @@ import {
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
+import "./RecipeItem.css";
+
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;

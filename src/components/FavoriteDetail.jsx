@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Paper } from "@mui/material";
 
-import "./Component.css";
+import "./FavoriteDetail.css";
 
 export default function FavoriteDetail({ recipe }) {
   return (

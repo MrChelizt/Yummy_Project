@@ -2,7 +2,7 @@ import React from "react";
 
 import FavoriteDetail from "../components/FavoriteDetail";
 
-import "./Page.css";
+import "./Favorite.css";
 
 export default function Favorite({ favorite }) {
   const mappedFavorites = favorite.map((recipe) => (
